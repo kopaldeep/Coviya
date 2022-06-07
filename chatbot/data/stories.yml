@@ -1,0 +1,22 @@
+version: "2.0"
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: Story from Conversation ID e0a8904d9e924db195414b9856ecbb0a
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: nlu_fallback
+  - action: utter_greet
+  - intent: ques_073
+  - action: utter_ques_073
+  - intent: ques_085
+  - action: utter_ques_085
+  - intent: goodbye
+  - action: utter_goodbye

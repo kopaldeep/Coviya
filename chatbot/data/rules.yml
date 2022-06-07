@@ -1,0 +1,1048 @@
+version: "2.0"
+
+rules:
+
+- rule: Greet user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot'
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Ans_Ques_001
+  steps:
+  - intent: ques_001
+  - action: utter_ques_001
+
+- rule: Ans_Ques_002
+  steps:
+  - intent: ques_002
+  - action: utter_ques_002
+
+- rule: Ans_Ques_003
+  steps:
+  - intent: ques_003
+  - action: utter_ques_003
+
+- rule: Ans_Ques_004
+  steps:
+  - intent: ques_004
+  - action: utter_ques_004
+
+- rule: Ans_Ques_005
+  steps:
+  - intent: ques_005
+  - action: utter_ques_005
+
+- rule: Ans_Ques_006
+  steps:
+  - intent: ques_006
+  - action: utter_ques_006
+
+- rule: Ans_Ques_007
+  steps:
+  - intent: ques_007
+  - action: utter_ques_007
+
+- rule: Ans_Ques_008
+  steps:
+  - intent: ques_008
+  - action: utter_ques_008
+
+- rule: Ans_Ques_009
+  steps:
+  - intent: ques_009
+  - action: utter_ques_009
+
+- rule: Ans_Ques_010
+  steps:
+  - intent: ques_010
+  - action: utter_ques_010
+
+- rule: Ans_Ques_011
+  steps:
+  - intent: ques_011
+  - action: utter_ques_011
+
+- rule: Ans_Ques_012
+  steps:
+  - intent: ques_012
+  - action: utter_ques_012
+
+- rule: Ans_Ques_013
+  steps:
+  - intent: ques_013
+  - action: utter_ques_013
+
+- rule: Ans_Ques_014
+  steps:
+  - intent: ques_014
+  - action: utter_ques_014
+
+- rule: Ans_Ques_015
+  steps:
+  - intent: ques_015
+  - action: utter_ques_015
+
+- rule: Ans_Ques_016
+  steps:
+  - intent: ques_016
+  - action: utter_ques_016
+
+- rule: Ans_Ques_017
+  steps:
+  - intent: ques_017
+  - action: utter_ques_017
+
+- rule: Ans_Ques_018
+  steps:
+  - intent: ques_018
+  - action: utter_ques_018
+
+- rule: Ans_Ques_019
+  steps:
+  - intent: ques_019
+  - action: utter_ques_019
+
+- rule: Ans_Ques_020
+  steps:
+  - intent: ques_020
+  - action: utter_ques_020
+
+- rule: Ans_Ques_021
+  steps:
+  - intent: ques_021
+  - action: utter_ques_021
+
+- rule: Ans_Ques_022
+  steps:
+  - intent: ques_022
+  - action: utter_ques_022
+
+- rule: Ans_Ques_023
+  steps:
+  - intent: ques_023
+  - action: utter_ques_023
+
+- rule: Ans_Ques_024
+  steps:
+  - intent: ques_024
+  - action: utter_ques_024
+
+- rule: Ans_Ques_025
+  steps:
+  - intent: ques_025
+  - action: utter_ques_025
+
+- rule: Ans_Ques_026
+  steps:
+  - intent: ques_026
+  - action: utter_ques_026
+
+- rule: Ans_Ques_027
+  steps:
+  - intent: ques_027
+  - action: utter_ques_027
+
+- rule: Ans_Ques_028
+  steps:
+  - intent: ques_028
+  - action: utter_ques_028
+
+- rule: Ans_Ques_029
+  steps:
+  - intent: ques_029
+  - action: utter_ques_029
+
+- rule: Ans_Ques_030
+  steps:
+  - intent: ques_030
+  - action: utter_ques_030
+
+- rule: Ans_Ques_031
+  steps:
+  - intent: ques_031
+  - action: utter_ques_031
+
+- rule: Ans_Ques_032
+  steps:
+  - intent: ques_032
+  - action: utter_ques_032
+
+- rule: Ans_Ques_033
+  steps:
+  - intent: ques_033
+  - action: utter_ques_033
+
+- rule: Ans_Ques_034
+  steps:
+  - intent: ques_034
+  - action: utter_ques_034
+
+- rule: Ans_Ques_035
+  steps:
+  - intent: ques_035
+  - action: utter_ques_035
+
+- rule: Ans_Ques_036
+  steps:
+  - intent: ques_036
+  - action: utter_ques_036
+
+- rule: Ans_Ques_037
+  steps:
+  - intent: ques_037
+  - action: utter_ques_037
+
+- rule: Ans_Ques_038
+  steps:
+  - intent: ques_038
+  - action: utter_ques_038
+
+- rule: Ans_Ques_039
+  steps:
+  - intent: ques_039
+  - action: utter_ques_039
+
+- rule: Ans_Ques_040
+  steps:
+  - intent: ques_040
+  - action: utter_ques_040
+
+- rule: Ans_Ques_041
+  steps:
+  - intent: ques_041
+  - action: utter_ques_041
+
+- rule: Ans_Ques_042
+  steps:
+  - intent: ques_042
+  - action: utter_ques_042
+
+- rule: Ans_Ques_043
+  steps:
+  - intent: ques_043
+  - action: utter_ques_043
+
+- rule: Ans_Ques_044
+  steps:
+  - intent: ques_044
+  - action: utter_ques_044
+
+- rule: Ans_Ques_045
+  steps:
+  - intent: ques_045
+  - action: utter_ques_045
+
+- rule: Ans_Ques_046
+  steps:
+  - intent: ques_046
+  - action: utter_ques_046
+
+- rule: Ans_Ques_047
+  steps:
+  - intent: ques_047
+  - action: utter_ques_047
+
+- rule: Ans_Ques_048
+  steps:
+  - intent: ques_048
+  - action: utter_ques_048
+
+- rule: Ans_Ques_049
+  steps:
+  - intent: ques_049
+  - action: utter_ques_049
+
+- rule: Ans_Ques_050
+  steps:
+  - intent: ques_050
+  - action: utter_ques_050
+
+- rule: Ans_Ques_051
+  steps:
+  - intent: ques_051
+  - action: utter_ques_051
+
+- rule: Ans_Ques_052
+  steps:
+  - intent: ques_052
+  - action: utter_ques_052
+
+- rule: Ans_Ques_053
+  steps:
+  - intent: ques_053
+  - action: utter_ques_053
+
+- rule: Ans_Ques_054
+  steps:
+  - intent: ques_054
+  - action: utter_ques_054
+
+- rule: Ans_Ques_055
+  steps:
+  - intent: ques_055
+  - action: utter_ques_055
+
+- rule: Ans_Ques_056
+  steps:
+  - intent: ques_056
+  - action: utter_ques_056
+
+- rule: Ans_Ques_057
+  steps:
+  - intent: ques_057
+  - action: utter_ques_057
+
+- rule: Ans_Ques_058
+  steps:
+  - intent: ques_058
+  - action: utter_ques_058
+
+- rule: Ans_Ques_059
+  steps:
+  - intent: ques_059
+  - action: utter_ques_059
+
+- rule: Ans_Ques_060
+  steps:
+  - intent: ques_060
+  - action: utter_ques_060
+
+- rule: Ans_Ques_061
+  steps:
+  - intent: ques_061
+  - action: utter_ques_061
+
+- rule: Ans_Ques_062
+  steps:
+  - intent: ques_062
+  - action: utter_ques_062
+
+- rule: Ans_Ques_063
+  steps:
+  - intent: ques_063
+  - action: utter_ques_063
+
+- rule: Ans_Ques_064
+  steps:
+  - intent: ques_064
+  - action: utter_ques_064
+
+- rule: Ans_Ques_065
+  steps:
+  - intent: ques_065
+  - action: utter_ques_065
+
+- rule: Ans_Ques_066
+  steps:
+  - intent: ques_066
+  - action: utter_ques_066
+
+- rule: Ans_Ques_067
+  steps:
+  - intent: ques_067
+  - action: utter_ques_067
+
+- rule: Ans_Ques_068
+  steps:
+  - intent: ques_068
+  - action: utter_ques_068
+
+- rule: Ans_Ques_069
+  steps:
+  - intent: ques_069
+  - action: utter_ques_069
+
+- rule: Ans_Ques_070
+  steps:
+  - intent: ques_070
+  - action: utter_ques_070
+
+- rule: Ans_Ques_071
+  steps:
+  - intent: ques_071
+  - action: utter_ques_071
+
+- rule: Ans_Ques_072
+  steps:
+  - intent: ques_072
+  - action: utter_ques_072
+
+- rule: Ans_Ques_073
+  steps:
+  - intent: ques_073
+  - action: utter_ques_073
+
+- rule: Ans_Ques_074
+  steps:
+  - intent: ques_074
+  - action: utter_ques_074
+
+- rule: Ans_Ques_075
+  steps:
+  - intent: ques_075
+  - action: utter_ques_075
+
+- rule: Ans_Ques_076
+  steps:
+  - intent: ques_076
+  - action: utter_ques_076
+
+- rule: Ans_Ques_077
+  steps:
+  - intent: ques_077
+  - action: utter_ques_077
+
+- rule: Ans_Ques_078
+  steps:
+  - intent: ques_078
+  - action: utter_ques_078
+
+- rule: Ans_Ques_079
+  steps:
+  - intent: ques_079
+  - action: utter_ques_079
+
+- rule: Ans_Ques_080
+  steps:
+  - intent: ques_080
+  - action: utter_ques_080
+
+- rule: Ans_Ques_081
+  steps:
+  - intent: ques_081
+  - action: utter_ques_081
+
+- rule: Ans_Ques_082
+  steps:
+  - intent: ques_082
+  - action: utter_ques_082
+
+- rule: Ans_Ques_083
+  steps:
+  - intent: ques_083
+  - action: utter_ques_083
+
+- rule: Ans_Ques_084
+  steps:
+  - intent: ques_084
+  - action: utter_ques_084
+
+- rule: Ans_Ques_085
+  steps:
+  - intent: ques_085
+  - action: utter_ques_085
+
+- rule: Ans_Ques_086
+  steps:
+  - intent: ques_086
+  - action: utter_ques_086
+
+- rule: Ans_Ques_087
+  steps:
+  - intent: ques_087
+  - action: utter_ques_087
+
+- rule: Ans_Ques_088
+  steps:
+  - intent: ques_088
+  - action: utter_ques_088
+
+- rule: Ans_Ques_089
+  steps:
+  - intent: ques_089
+  - action: utter_ques_089
+
+- rule: Ans_Ques_090
+  steps:
+  - intent: ques_090
+  - action: utter_ques_090
+
+- rule: Ans_Ques_091
+  steps:
+  - intent: ques_091
+  - action: utter_ques_091
+
+- rule: Ans_Ques_092
+  steps:
+  - intent: ques_092
+  - action: utter_ques_092
+
+- rule: Ans_Ques_093
+  steps:
+  - intent: ques_093
+  - action: utter_ques_093
+
+- rule: Ans_Ques_094
+  steps:
+  - intent: ques_094
+  - action: utter_ques_094
+
+- rule: Ans_Ques_095
+  steps:
+  - intent: ques_095
+  - action: utter_ques_095
+
+- rule: Ans_Ques_096
+  steps:
+  - intent: ques_096
+  - action: utter_ques_096
+
+- rule: Ans_Ques_097
+  steps:
+  - intent: ques_097
+  - action: utter_ques_097
+
+- rule: Ans_Ques_098
+  steps:
+  - intent: ques_098
+  - action: utter_ques_098
+
+- rule: Ans_Ques_099
+  steps:
+  - intent: ques_099
+  - action: utter_ques_099
+
+- rule: Ans_Ques_100
+  steps:
+  - intent: ques_100
+  - action: utter_ques_100
+
+- rule: Ans_Ques_101
+  steps:
+  - intent: ques_101
+  - action: utter_ques_101
+
+- rule: Ans_Ques_102
+  steps:
+  - intent: ques_102
+  - action: utter_ques_102
+
+- rule: Ans_Ques_103
+  steps:
+  - intent: ques_103
+  - action: utter_ques_103
+
+- rule: Ans_Ques_104
+  steps:
+  - intent: ques_104
+  - action: utter_ques_104
+
+- rule: Ans_Ques_105
+  steps:
+  - intent: ques_105
+  - action: utter_ques_105
+
+- rule: Ans_Ques_106
+  steps:
+  - intent: ques_106
+  - action: utter_ques_106
+
+- rule: Ans_Ques_107
+  steps:
+  - intent: ques_107
+  - action: utter_ques_107
+
+- rule: Ans_Ques_108
+  steps:
+  - intent: ques_108
+  - action: utter_ques_108
+
+- rule: Ans_Ques_109
+  steps:
+  - intent: ques_109
+  - action: utter_ques_109
+
+- rule: Ans_Ques_110
+  steps:
+  - intent: ques_110
+  - action: utter_ques_110
+
+- rule: Ans_Ques_111
+  steps:
+  - intent: ques_111
+  - action: utter_ques_111
+
+- rule: Ans_Ques_112
+  steps:
+  - intent: ques_112
+  - action: utter_ques_112
+
+- rule: Ans_Ques_113
+  steps:
+  - intent: ques_113
+  - action: utter_ques_113
+
+- rule: Ans_Ques_114
+  steps:
+  - intent: ques_114
+  - action: utter_ques_114
+
+- rule: Ans_Ques_115
+  steps:
+  - intent: ques_115
+  - action: utter_ques_115
+
+- rule: Ans_Ques_116
+  steps:
+  - intent: ques_116
+  - action: utter_ques_116
+
+- rule: Ans_Ques_117
+  steps:
+  - intent: ques_117
+  - action: utter_ques_117
+
+- rule: Ans_Ques_118
+  steps:
+  - intent: ques_118
+  - action: utter_ques_118
+
+- rule: Ans_Ques_119
+  steps:
+  - intent: ques_119
+  - action: utter_ques_119
+
+- rule: Ans_Ques_120
+  steps:
+  - intent: ques_120
+  - action: utter_ques_120
+
+- rule: Ans_Ques_121
+  steps:
+  - intent: ques_121
+  - action: utter_ques_121
+
+- rule: Ans_Ques_122
+  steps:
+  - intent: ques_122
+  - action: utter_ques_122
+
+- rule: Ans_Ques_123
+  steps:
+  - intent: ques_123
+  - action: utter_ques_123
+
+- rule: Ans_Ques_124
+  steps:
+  - intent: ques_124
+  - action: utter_ques_124
+
+- rule: Ans_Ques_125
+  steps:
+  - intent: ques_125
+  - action: utter_ques_125
+
+- rule: Ans_Ques_126
+  steps:
+  - intent: ques_126
+  - action: utter_ques_126
+
+- rule: Ans_Ques_127
+  steps:
+  - intent: ques_127
+  - action: utter_ques_127
+
+- rule: Ans_Ques_128
+  steps:
+  - intent: ques_128
+  - action: utter_ques_128
+
+- rule: Ans_Ques_129
+  steps:
+  - intent: ques_129
+  - action: utter_ques_129
+
+- rule: Ans_Ques_130
+  steps:
+  - intent: ques_130
+  - action: utter_ques_130
+
+- rule: Ans_Ques_131
+  steps:
+  - intent: ques_131
+  - action: utter_ques_131
+
+- rule: Ans_Ques_132
+  steps:
+  - intent: ques_132
+  - action: utter_ques_132
+
+- rule: Ans_Ques_133
+  steps:
+  - intent: ques_133
+  - action: utter_ques_133
+
+- rule: Ans_Ques_134
+  steps:
+  - intent: ques_134
+  - action: utter_ques_134
+
+- rule: Ans_Ques_135
+  steps:
+  - intent: ques_135
+  - action: utter_ques_135
+
+- rule: Ans_Ques_136
+  steps:
+  - intent: ques_136
+  - action: utter_ques_136
+
+- rule: Ans_Ques_137
+  steps:
+  - intent: ques_137
+  - action: utter_ques_137
+
+- rule: Ans_Ques_138
+  steps:
+  - intent: ques_138
+  - action: utter_ques_138
+
+- rule: Ans_Ques_139
+  steps:
+  - intent: ques_139
+  - action: utter_ques_139
+
+- rule: Ans_Ques_140
+  steps:
+  - intent: ques_140
+  - action: utter_ques_140
+
+- rule: Ans_Ques_141
+  steps:
+  - intent: ques_141
+  - action: utter_ques_141
+
+- rule: Ans_Ques_142
+  steps:
+  - intent: ques_142
+  - action: utter_ques_142
+
+- rule: Ans_Ques_143
+  steps:
+  - intent: ques_143
+  - action: utter_ques_143
+
+- rule: Ans_Ques_144
+  steps:
+  - intent: ques_144
+  - action: utter_ques_144
+
+- rule: Ans_Ques_145
+  steps:
+  - intent: ques_145
+  - action: utter_ques_145
+
+- rule: Ans_Ques_146
+  steps:
+  - intent: ques_146
+  - action: utter_ques_146
+
+- rule: Ans_Ques_147
+  steps:
+  - intent: ques_147
+  - action: utter_ques_147
+
+- rule: Ans_Ques_148
+  steps:
+  - intent: ques_148
+  - action: utter_ques_148
+
+- rule: Ans_Ques_149
+  steps:
+  - intent: ques_149
+  - action: utter_ques_149
+
+- rule: Ans_Ques_150
+  steps:
+  - intent: ques_150
+  - action: utter_ques_150
+
+- rule: Ans_Ques_151
+  steps:
+  - intent: ques_151
+  - action: utter_ques_151
+
+- rule: Ans_Ques_152
+  steps:
+  - intent: ques_152
+  - action: utter_ques_152
+
+- rule: Ans_Ques_153
+  steps:
+  - intent: ques_153
+  - action: utter_ques_153
+
+- rule: Ans_Ques_154
+  steps:
+  - intent: ques_154
+  - action: utter_ques_154
+
+- rule: Ans_Ques_155
+  steps:
+  - intent: ques_155
+  - action: utter_ques_155
+
+- rule: Ans_Ques_156
+  steps:
+  - intent: ques_156
+  - action: utter_ques_156
+
+- rule: Ans_Ques_157
+  steps:
+  - intent: ques_157
+  - action: utter_ques_157
+
+- rule: Ans_Ques_158
+  steps:
+  - intent: ques_158
+  - action: utter_ques_158
+
+- rule: Ans_Ques_159
+  steps:
+  - intent: ques_159
+  - action: utter_ques_159
+
+- rule: Ans_Ques_160
+  steps:
+  - intent: ques_160
+  - action: utter_ques_160
+
+- rule: Ans_Ques_161
+  steps:
+  - intent: ques_161
+  - action: utter_ques_161
+
+- rule: Ans_Ques_162
+  steps:
+  - intent: ques_162
+  - action: utter_ques_162
+
+- rule: Ans_Ques_163
+  steps:
+  - intent: ques_163
+  - action: utter_ques_163
+
+- rule: Ans_Ques_164
+  steps:
+  - intent: ques_164
+  - action: utter_ques_164
+
+- rule: Ans_Ques_165
+  steps:
+  - intent: ques_165
+  - action: utter_ques_165
+
+- rule: Ans_Ques_166
+  steps:
+  - intent: ques_166
+  - action: utter_ques_166
+
+- rule: Ans_Ques_167
+  steps:
+  - intent: ques_167
+  - action: utter_ques_167
+
+- rule: Ans_Ques_168
+  steps:
+  - intent: ques_168
+  - action: utter_ques_168
+
+- rule: Ans_Ques_169
+  steps:
+  - intent: ques_169
+  - action: utter_ques_169
+
+- rule: Ans_Ques_170
+  steps:
+  - intent: ques_170
+  - action: utter_ques_170
+
+- rule: Ans_Ques_171
+  steps:
+  - intent: ques_171
+  - action: utter_ques_171
+
+- rule: Ans_Ques_172
+  steps:
+  - intent: ques_172
+  - action: utter_ques_172
+
+- rule: Ans_Ques_173
+  steps:
+  - intent: ques_173
+  - action: utter_ques_173
+
+- rule: Ans_Ques_174
+  steps:
+  - intent: ques_174
+  - action: utter_ques_174
+
+- rule: Ans_Ques_175
+  steps:
+  - intent: ques_175
+  - action: utter_ques_175
+
+- rule: Ans_Ques_176
+  steps:
+  - intent: ques_176
+  - action: utter_ques_176
+
+- rule: Ans_Ques_177
+  steps:
+  - intent: ques_177
+  - action: utter_ques_177
+
+- rule: Ans_Ques_178
+  steps:
+  - intent: ques_178
+  - action: utter_ques_178
+
+- rule: Ans_Ques_179
+  steps:
+  - intent: ques_179
+  - action: utter_ques_179
+
+- rule: Ans_Ques_180
+  steps:
+  - intent: ques_180
+  - action: utter_ques_180
+
+- rule: Ans_Ques_181
+  steps:
+  - intent: ques_181
+  - action: utter_ques_181
+
+- rule: Ans_Ques_182
+  steps:
+  - intent: ques_182
+  - action: utter_ques_182
+
+- rule: Ans_Ques_183
+  steps:
+  - intent: ques_183
+  - action: utter_ques_183
+
+- rule: Ans_Ques_184
+  steps:
+  - intent: ques_184
+  - action: utter_ques_184
+
+- rule: Ans_Ques_185
+  steps:
+  - intent: ques_185
+  - action: utter_ques_185
+
+- rule: Ans_Ques_186
+  steps:
+  - intent: ques_186
+  - action: utter_ques_186
+
+- rule: Ans_Ques_187
+  steps:
+  - intent: ques_187
+  - action: utter_ques_187
+
+- rule: Ans_Ques_188
+  steps:
+  - intent: ques_188
+  - action: utter_ques_188
+
+- rule: Ans_Ques_189
+  steps:
+  - intent: ques_189
+  - action: utter_ques_189
+
+- rule: Ans_Ques_190
+  steps:
+  - intent: ques_190
+  - action: utter_ques_190
+
+- rule: Ans_Ques_191
+  steps:
+  - intent: ques_191
+  - action: utter_ques_191
+
+- rule: Ans_Ques_192
+  steps:
+  - intent: ques_192
+  - action: utter_ques_192
+
+- rule: Ans_Ques_193
+  steps:
+  - intent: ques_193
+  - action: utter_ques_193
+
+- rule: Ans_Ques_194
+  steps:
+  - intent: ques_194
+  - action: utter_ques_194
+
+- rule: Ans_Ques_195
+  steps:
+  - intent: ques_195
+  - action: utter_ques_195
+
+- rule: Ans_Ques_196
+  steps:
+  - intent: ques_196
+  - action: utter_ques_196
+
+- rule: Ans_Ques_197
+  steps:
+  - intent: ques_197
+  - action: utter_ques_197
+
+- rule: Ans_Ques_198
+  steps:
+  - intent: ques_198
+  - action: utter_ques_198
+
+- rule: Ans_Ques_199
+  steps:
+  - intent: ques_199
+  - action: utter_ques_199
+
+- rule: Ans_Ques_200
+  steps:
+  - intent: ques_200
+  - action: utter_ques_200
+
+- rule: Ans_Ques_201
+  steps:
+  - intent: ques_201
+  - action: utter_ques_201
+
+- rule: Ans_Ques_202
+  steps:
+  - intent: ques_202
+  - action: utter_ques_202
+
+- rule: Ans_Ques_203
+  steps:
+  - intent: ques_203
+  - action: utter_ques_203
+
+- rule: Ans_Ques_204
+  steps:
+  - intent: ques_204
+  - action: utter_ques_204
+
+- rule: Ans_Ques_205
+  steps:
+  - intent: ques_205
+  - action: utter_ques_205
+
+- rule: Ans_Ques_206
+  steps:
+  - intent: ques_206
+  - action: utter_ques_206

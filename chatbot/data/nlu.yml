@@ -1,0 +1,704 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hi
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: ques_001
+  examples: |
+    - What is the incubation period of the corona virus disease?
+    - What do we know about incubation period of corona virus?
+- intent: ques_002
+  examples: |
+    - Who is most at risk for the corona virus disease?
+    - Who is susceptible to COVID-19?
+- intent: ques_003
+  examples: |
+    - Is the corona virus disease the same as SARS?
+- intent: ques_004
+  examples: |
+    - What is a corona virus?
+    - What is COVID-19?
+- intent: ques_005
+  examples: |
+    - Can humans become infected with a novel corona virus of animal source?
+    - What is human infection rate?
+- intent: ques_006
+  examples: |
+    - What are the symptoms of someone infected with a corona virus?
+    - What are symptoms of COVID-19?
+- intent: ques_007
+  examples: |
+    - Can corona virus be transmitted from person to person?
+    - Can corona virus spread from person to person?
+- intent: ques_008
+  examples: |
+    - Is there a vaccine for a novel corona virus?
+    - Is there a vaccine for a corona virus?
+- intent: ques_009
+  examples: |
+    - Is there a treatment for a novel corona virus?
+    - Is there a treatment for a corona virus?
+- intent: ques_010
+  examples: |
+    - What can I do to protect myself?
+    - What can I do to shield myself?
+- intent: ques_011
+  examples: |
+    - Are health workers at risk from a novel corona virus?
+    - Are health workers at risk from a corona virus?
+- intent: ques_012
+  examples: |
+    - What WHO recommendations for countries?
+    - What WHO say for countries?
+- intent: ques_013
+  examples: |
+    - Is My Child at Risk for corona virus (COVID-19)?
+    - Are health workers at risk from a novel corona virus?
+- intent: ques_014
+  examples: |
+    - What Should I Do if a Family Member Has Symptoms of corona virus (COVID-19)?
+    - What Should I Do if a Family Member Has Symptoms of COVID-19?
+- intent: ques_015
+  examples: |
+    - How Do Doctors Test People for corona virus (COVID-19)?
+    - How Do Doctors Test People for corona virus?
+- intent: ques_016
+  examples: |
+    - Where Can I Get Updated Information on corona virus (COVID-19)?
+    - where to get information about COVID-19?
+- intent: ques_017
+  examples: |
+    - What is COVID-19? What is SARS-CoV-2?
+    - What is novel corona virus?
+- intent: ques_018
+  examples: |
+    - Where do corona viruses come from?
+    - Where do COVID-19 viruses come from?
+- intent: ques_019
+  examples: |
+    - Is this virus comparable to SARS or to the seasonal flu?
+    - Is this virus comparable to SARS or to the normal flu?
+- intent: ques_020
+  examples: |
+    - What is the mode of transmission of corona virus?
+    - What is the way of transmission of corona virus?
+- intent: ques_021
+  examples: |
+    - When is a person infectious?
+    - When is a person spread infection?
+- intent: ques_022
+  examples: |
+    - How severe is COVID-19 infection?
+    - Is COVID-19 severe?
+- intent: ques_023
+  examples: |
+    - Are some people more at risk than others?
+    - Do some people more at risk than others?
+- intent: ques_024
+  examples: |
+    - Are children also at risk of infection and what is their potential role in transmission of covid19?
+    - Are children also at risk of infection? What is their potential role in transmission of covid19?
+- intent: ques_025
+  examples: |
+    - What is the risk of infection in pregnant women and neonates?
+    - What is the risk of infection in pregnant women?
+    - What is the risk of infection in lactating mother?
+- intent: ques_026
+  examples: |
+    - When should I be tested for COVID-19?
+    - When should I be tested for corona virus?
+- intent: ques_027
+  examples: |
+    - Where can I get tested?
+    - Where can I get test for COVID-19?
+- intent: ques_028
+  examples: |
+    - Do persons suffering from pollen allergy or allergies in general have a higher risk to develop severe disease when having COVID-19?
+    - Do persons suffering from pollen allergy or allergies in general have a higher risk to develop severe disease when having corona?
+- intent: ques_029
+  examples: |
+    - How can we differentiate between hay fever/pollen allergy related respiratory symptoms and COVID-19 infection?
+    - How can we differentiate between hay fever/pollen allergy related respiratory symptoms and novel corona virus?
+- intent: ques_030
+  examples: |
+    - Should people who suffer from pollen allergy self-isolate if they develop typical hay fever symptoms?
+    - Should people who suffer from pollen allergy self-isolate if they develop typical hay fever?
+- intent: ques_031
+  examples: |
+    - How can I avoid getting infected?
+    - How can I avoid infection?
+- intent: ques_032
+  examples: |
+    - How can I avoid infecting others?
+    - How can I avoid infection to others?
+- intent: ques_033
+  examples: |
+    - What is physical distancing and why and how should I do it?
+    - What is physical distancing?
+- intent: ques_034
+  examples: |
+    - Are face masks effective in protecting against COVID-19?
+    - Are face masks effective in protecting from COVID-19?
+- intent: ques_035
+  examples: |
+    - How long will it take to develop a vaccine?
+    - How long will it take to make a vaccine?
+- intent: ques_036
+  examples: |
+    - Am I protected against COVID-19 if I had the influenza vaccine this year?
+    - Am I protected against COVID-19 if I had the influenza vaccine?
+- intent: ques_037
+  examples: |
+    - What is the situation in Europe at the moment?
+- intent: ques_038
+  examples: |
+    - How prepared is Europe for COVID-19?
+- intent: ques_039
+  examples: |
+    - What is the EU doing?
+- intent: ques_040
+  examples: |
+    - How many people have been infected in the EU/EEA?
+- intent: ques_041
+  examples: |
+    - How long will this outbreak last? When will we see the peak?
+- intent: ques_042
+  examples: |
+    - Should schools and day centres be closed?
+- intent: ques_043
+  examples: |
+    - What are the travel restrictions in the European Union?
+- intent: ques_044
+  examples: |
+    - What precautions should I take if I need to travel?
+- intent: ques_045
+  examples: |
+    - What is the risk of infection when travelling by plane?'
+    - What are risk associated with travelling?
+
+- intent: ques_046
+  examples: |
+    - Are people working in the supply chain including logistics, control services, retail, etc. at risk of getting COVID-19 by handling packages? What measures can be taken to reduce the risk of getting infected in this type of work setting?
+- intent: ques_047
+  examples: |
+    - What is the risk of COVID-19 infection from food products imported from affected areas?
+- intent: ques_048
+  examples: |
+    - What is the risk of COVID-19 infection from animals or animal products imported from affected areas?
+    - Are children also at risk of infection and what is their potential role in transmission of covid19?
+- intent: ques_049
+  examples: |
+    - I have a lung condition; am I at more risk of getting COVID-19 than somebody who doesn’t have a lung condition?
+- intent: ques_050
+  examples: |
+    - Please can you provide detailed information about who is at high risk from a respiratory standpoint?
+    - where to get information about COVID-19?
+- intent: ques_051
+  examples: |
+    - Are there any additional measures that I should take to limit my risk of getting sick as I have a lung condition?
+- intent: ques_052
+  examples: |
+    - Should I consider self-isolating to avoid catching the virus?
+- intent: ques_053
+  examples: |
+    - Am I safe outside of the house provided I avoid crowded areas e.g. can I go to the park or walk outside?
+- intent: ques_054
+  examples: |
+    - Are people with respiratory disease more likely to die of COVID-19 than those without?
+- intent: ques_055
+  examples: |
+    - As part of my condition, I regularly have a dry cough and fever – is there a way to distinguish these symptoms with those of COVID-19?
+- intent: ques_056
+  examples: |
+    - Should I wear a mask to protect myself from the virus?
+- intent: ques_057
+  examples: |
+    - Can I catch COVID-19 from my pet?
+- intent: ques_058
+  examples: |
+    - My neighbours often smoke in their garden and the smoke comes into my house if the windows are open. Can COVID-19 be transmitted through exhaled smoke?
+- intent: ques_059
+  examples: |
+    - The news says that the worst affected by COVID-19 are the older age population and ‘people’ with pre-existing conditions. Are ‘people with pre-existing conditions’ also older or does this refer to people of any age?
+- intent: ques_060
+  examples: |
+    - I had the flu vaccine this year, am I protected from this virus?
+- intent: ques_061
+  examples: |
+    - What is being done to protect the vulnerable population (elderly, people with health conditions)?
+- intent: ques_062
+  examples: |
+    - What are organisations in Europe doing about the situation?
+- intent: ques_063
+  examples: |
+    - Can the virus that causes COVID-19 be transmitted through the air?
+- intent: ques_064
+  examples: |
+    - Can I catch COVID-19 from the feces of someone with the disease?
+- intent: ques_065
+  examples: |
+    - What can I do to protect myself and prevent the spread of disease
+- intent: ques_066
+  examples: |
+    - Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading
+- intent: ques_067
+  examples: |
+    - How likely am I to catch COVID-19?
+- intent: ques_068
+  examples: |
+    - Should I worry about COVID-19?
+- intent: ques_069
+  examples: |
+    - Are antibiotics effective in preventing or treating the COVID-19?
+- intent: ques_070
+  examples: |
+    - Are there any medicines or therapies that can prevent or cure COVID-19
+- intent: ques_071
+  examples: |
+    - Should I wear mask to protect myself
+- intent: ques_072
+  examples: |
+    - How to put on use take off and dispose of a mask?
+- intent: ques_073
+  examples: |
+    - How long is the incubation period for COVID-19?
+    - What do we know about incubation period of corona virus?
+- intent: ques_074
+  examples: |
+    - Can I catch COVID-19 from my pet?
+- intent: ques_075
+  examples: |
+    - Is it safe to receive a package from any area where COVID-19 has been reported?
+- intent: ques_076
+  examples: |
+    - Is there anything I should not do?
+- intent: ques_077
+  examples: |
+    - Can you have COVID-19 and show no symptoms?
+- intent: ques_078
+  examples: |
+    - Can one get corona virus for a second time?
+- intent: ques_079
+  examples: |
+    - How long can the virus survive on surfaces?
+    - Are face masks effective in protecting from COVID-19?
+- intent: ques_080
+  examples: |
+    - How has attention to other major illnesses (like cancer) been affected?
+- intent: ques_081
+  examples: |
+    - Is it possible that one day this will happen again?
+- intent: ques_082
+  examples: |
+    - How to stop infection spreading of covid-19 ?
+- intent: ques_083
+  examples: |
+    - What to do if you need medical help ?
+- intent: ques_084
+  examples: |
+    - How to protect yourself from coronavirus ?
+- intent: ques_085
+  examples: |
+    - Who are the People most at risk ?
+- intent: ques_086
+  examples: |
+    - What are the symptoms of someone infected with a corona virus?
+- intent: ques_087
+  examples: |
+    - How long you should self isolate ?
+- intent: ques_088
+  examples: |
+    - How long to self-isolate if you have symptoms ?
+- intent: ques_089
+  examples: |
+    - What to do If you live with someone who has symptoms?
+- intent: ques_090
+  examples: |
+    - What should be done to reduce the spread of infection in your home ?
+- intent: ques_091
+  examples: |
+    - How to Treat corona virus symptoms at home ?
+- intent: ques_092
+  examples: |
+    - Can I take ibuprofen if I have corona virus ?
+- intent: ques_093
+  examples: |
+    - When am I allowed to leave the house?
+- intent: ques_094
+  examples: |
+    - Can I go to the dentist, my GP or another medical appointment?
+- intent: ques_095
+  examples: |
+    - Should I stay at home or go to work?
+- intent: ques_096
+  examples: |
+    - I’m not a critical worker and I can’t work from home. What should I do?
+- intent: ques_097
+  examples: |
+    - How can I find out if my work is essential or not?
+- intent: ques_098
+  examples: |
+    - Can I see my friends?
+- intent: ques_099
+  examples: |
+    - Can I visit elderly relatives?
+- intent: ques_100
+  examples: |
+    - Can I go out to help a vulnerable person?
+- intent: ques_101
+  examples: |
+    - Can I go to park ?
+- intent: ques_102
+  examples: |
+    - Can I move house?
+- intent: ques_103
+  examples: |
+    - Can I drive to a national park or other green space to walk?
+- intent: ques_104
+  examples: |
+    - What will happen to me if I break the rules?
+- intent: ques_105
+  examples: |
+    - What to do if you have symptoms ?
+- intent: ques_106
+  examples: |
+    - What can I do to prevent catching or spreading the germs ?
+- intent: ques_107
+  examples: |
+    - Are the Intercollegiate Halls of Residence open?
+- intent: ques_108
+  examples: |
+    - Is teaching continuing for students?
+- intent: ques_109
+  examples: |
+    - What is corona virus ?
+- intent: ques_110
+  examples: |
+    - What is social distancing ?
+- intent: ques_111
+  examples: |
+    - What effect does coronavirus have on pregnant women?
+- intent: ques_112
+  examples: |
+    - What effect will coronavirus have on my baby if I am diagnosed with the infection?
+- intent: ques_113
+  examples: |
+    - Why are pregnant women in a vulnerable group?
+- intent: ques_114
+  examples: |
+    - What is the travel advice if I am pregnant?
+- intent: ques_115
+  examples: |
+    - Should I attend my antenatal and postnatal appointments?
+- intent: ques_116
+  examples: |
+    - What should I do if I develop a fever or temperature, or both, when I am pregnant?
+- intent: ques_117
+  examples: |
+    - What impact will corona virus have on my pregnancy?
+- intent: ques_118
+  examples: |
+    - Will my childbirth choices be affected by the coronavirus pandemic?
+- intent: ques_119
+  examples: |
+    - Will I be able to have my birth partner with me during labour and birth?
+- intent: ques_120
+  examples: |
+    - Will I be able to have my birth partner with me if I am being induced?
+- intent: ques_121
+  examples: |
+    - Will my birth partner be able to stay with me if I have a caesarean or instrumental birth that occurs in an operating theatre?
+- intent: ques_122
+  examples: |
+    - Is there any advice for birth partners during the corona virus pandemic?
+- intent: ques_123
+  examples: |
+    - How will I be tested for corona virus?
+- intent: ques_124
+  examples: |
+    - What should I do if I test positive for coronavirus?
+- intent: ques_125
+  examples: |
+    - Why would I be asked to self-isolate (as opposed to reducing social contact)?
+- intent: ques_126
+  examples: |
+    - What should I do if I’m asked to self-isolate?
+- intent: ques_127
+  examples: |
+    - How will my care be managed after I have recovered from coronavirus?
+- intent: ques_128
+  examples: |
+    - What do I do if I feel unwell or I’m worried about my baby during self-isolation?
+- intent: ques_129
+  examples: |
+    - Will being in self-isolation for suspected or confirmed corona virus affect where I give birth?
+    - What should I do if I’m suspected to self-isolate?
+- intent: ques_130
+  examples: |
+    - Will being in self-isolation for suspected or confirmed coronavirus affect how I give birth?
+- intent: ques_131
+  examples: |
+    - What happens if I go into labour during my self-isolation period?
+- intent: ques_132
+  examples: |
+    - Could I pass corona virus to my baby?
+- intent: ques_133
+  examples: |
+    - Will my baby be tested for coronavirus?
+- intent: ques_134
+  examples: |
+    - What is corona virus ?
+- intent: ques_135
+  examples: |
+    - Why is this disease being called corona virus disease 2019, covid-19 ?
+- intent: ques_136
+  examples: |
+    - Why might someone blame or avoid individuals and groups (create stigma) because of covid-19 ?
+- intent: ques_137
+  examples: |
+    - How can people help stop stigma related to covid-19 ?
+- intent: ques_138
+  examples: |
+    - What is source of corona virus ?
+- intent: ques_139
+  examples: |
+    - How does corona virus spread ?
+- intent: ques_140
+  examples: |
+    - Why are we seeing rise in cases ?
+- intent: ques_141
+  examples: |
+    - Can someone who has covid-19 spread the illness to others ?
+- intent: ques_142
+  examples: |
+    - Can the corona virus can be spread through food, including restaurant take out, refrigerated or frozen packaged food ?
+- intent: ques_143
+  examples: |
+    - Can I get sick with covid-19 if its on food ?
+- intent: ques_144
+  examples: |
+    - Will warm weather stop the outbreak of covid-19 ?
+- intent: ques_145
+  examples: |
+    - What is community spread ?
+- intent: ques_146
+  examples: |
+    - What temperature kills the virus that causes covid-19 ?
+- intent: ques_147
+  examples: |
+    - Can mosquitoes or tricks spread the virus that causes covid-19 ?
+- intent: ques_148
+  examples: |
+    - How can I protect myself ?
+- intent: ques_149
+  examples: |
+    - What should I do if I have had close contact with someone who has covid-19 ?
+- intent: ques_150
+  examples: |
+    - Does CDC recommend using face masks or face coverings to prevent covid-19 ?
+    - Are face masks effective in protecting from COVID-19?
+- intent: ques_151
+  examples: |
+    - Am I at risk for covid-19 from a package or products shipping from China ?
+- intent: ques_152
+  examples: |
+    - Is it okay for me to donate blood ?
+- intent: ques_153
+  examples: |
+    - what is the risk of my child becoming sick with covid-19 ?
+- intent: ques_154
+  examples: |
+    - How can I protect my child from covid-19 infection ?
+- intent: ques_155
+  examples: |
+    - Are the symptoms of covid-19 different in children than in adults ?
+- intent: ques_156
+  examples: |
+    - Should children wear masks ?
+- intent: ques_157
+  examples: |
+    - how do I prepare my children in case of covid-19 outbreak in our community ?
+- intent: ques_158
+  examples: |
+    - How can my family and I prepare for Covid-19 ?
+- intent: ques_159
+  examples: |
+    - What steps can my family take to reduce our risk of getting covid-19 ?
+- intent: ques_160
+  examples: |
+    - What should I do if someone in my house gets sick  with covid-19 ?
+- intent: ques_161
+  examples: |
+    - How can I prepare for covid-19 at work ?
+- intent: ques_162
+  examples: |
+    - Should I use soap and water or hand sanitizer to protect against covid-19 ?
+- intent: ques_163
+  examples: |
+    - What cleaning products should I use to protect against covid-19 ?
+- intent: ques_164
+  examples: |
+    - Should I make my own sanitizer if I can't find it in the stores ?
+- intent: ques_165
+  examples: |
+    - What are the symptoms and complications that covid-19 can cause ?
+- intent: ques_166
+  examples: |
+    - Who is most at risk for the corona virus disease?
+- intent: ques_167
+  examples: |
+    - What should people at higher risk of serious illness with covid-19 do ?
+- intent: ques_168
+  examples: |
+    - Can I get covid-19 from my pets or other animals ?
+- intent: ques_169
+  examples: |
+    - How can I prevent covid-19 ?
+- intent: ques_170
+  examples: |
+    - What treatments are available for covid-19 ?
+- intent: ques_171
+  examples: |
+    - Are there any vaccines or other medical products to prevent covid-19 ?
+- intent: ques_172
+  examples: |
+    - Can covid-19 be transmitted by blood transmission ?
+- intent: ques_173
+  examples: |
+    - Is it safe to donate blood during the corona virus pandemic ?
+- intent: ques_174
+  examples: |
+    - Are there any FDA-approved drug products or medicines to treat covid-19 ?
+- intent: ques_175
+  examples: |
+    - Are antibiotics effective in preventing or treating the COVID-19?
+- intent: ques_176
+  examples: |
+    - Is there a test for covid-19 ?
+- intent: ques_177
+  examples: |
+    - How are people tested for covid-19 ?
+- intent: ques_178
+  examples: |
+    - Can I get covid-19 from food worker handling my food ?
+- intent: ques_179
+  examples: |
+    - Can animals get covid-19 disease ?
+- intent: ques_180
+  examples: |
+    - Can I get covid-19 from my pets or other animals ?
+- intent: ques_181
+  examples: |
+    - what is the median  incubation period of corona virus ?
+    - What do we know about incubation period of corona virus?
+- intent: ques_182
+  examples: |
+    - What is corona virus
+- intent: ques_183
+  examples: |
+    - What are the symptoms of COVID-19
+- intent: ques_184
+  examples: |
+    - How does COVID-19 spread
+- intent: ques_185
+  examples: |
+    - Can the virus that causes COVID-19 be transmitted through the air?
+- intent: ques_186
+  examples: |
+    - Can CoVID-19 be caught from a person who has no symptoms?
+- intent: ques_187
+  examples: |
+    - Can I catch COVID-19 from the feces of someone with the disease?
+- intent: ques_188
+  examples: |
+    - What can I do to protect myself from corona virus?
+- intent: ques_189
+  examples: |
+    - How likely am I to catch COVID-19?
+- intent: ques_190
+  examples: |
+    - Should I worry about COVID-19?
+- intent: ques_191
+  examples: |
+    - Who is at risk of developing severe illness
+- intent: ques_192
+  examples: |
+    - Are antibiotics effective in preventing or treating the COVID-19?
+- intent: ques_193
+  examples: |
+    - Are there any medicines or therapies that can prevent or cure COVID-19 ?
+- intent: ques_194
+  examples: |
+    - Is there a vaccine drug or treatment for COVID-19 ?
+- intent: ques_195
+  examples: |
+    - Is COVID-19 the same as SARS?
+- intent: ques_196
+  examples: |
+    - Should I wear mask to protect myself ?
+- intent: ques_197
+  examples: |
+    - How to put on use take off and dispose of a mask?
+- intent: ques_198
+  examples: |
+    - Can humans become infected with the COVID-19 from an animal source?
+- intent: ques_199
+  examples: |
+    - Can I catch COVID-19 from my pet?
+- intent: ques_200
+  examples: |
+    - How long does the virus survive on surfaces?
+- intent: ques_201
+  examples: |
+    - Is it safe to receive a package from any area where COVID-19 has been reported?
+- intent: ques_202
+  examples: |
+    - Do I need to wear a mask every time I step out of the home?
+    - Should I stay at home or go to work?
+- intent: ques_203
+  examples: |
+    - What is the government doing to contain the spread of COVID-19?
+- intent: ques_204
+  examples: |
+    - Where can I go to obtain accurate, scientific, and up-to-date information about coronavirus?
+    - where to get information about COVID-19?
+- intent: ques_205
+  examples: |
+    - How long is the incubation period for corona virus?
+    - What is the duration of incubation?
+- intent: ques_206
+  examples: |
+    - What do we know about incubation period of corona virus?
+    - What is incubation period?
